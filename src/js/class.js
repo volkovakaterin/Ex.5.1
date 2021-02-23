@@ -5,7 +5,7 @@
 class Character {
   constructor(name, type, health, level, attack, defence) {
     this.name = name;
-    if (typeof this.name !== 'string' || this.name < 2 || this.name > 10) {
+    if (typeof this.name !== 'string' || this.name.length < 2 || this.name.length > 10) {
       throw new Error('Ошибка');
     }
     this.type = type;
