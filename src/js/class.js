@@ -20,32 +20,32 @@ class Character {
 }
 
 class Bowman extends Character {
-  constructor(name, type, health, level, attack, defence) {
+  constructor(name) {
     super(name, 'Bowman', 100, 1, 25, 25);
   }
 }
 class Swordsman extends Character {
-  constructor(name, type, health, level, attack, defence) {
+  constructor(name) {
     super(name, 'Swordsman', 100, 1, 40, 10);
   }
 }
 class Magician extends Character {
-  constructor(name, type, health, level, attack, defence) {
+  constructor(name) {
     super(name, 'Magician', 100, 1, 10, 40);
   }
 }
 class Daemon extends Character {
-  constructor(name, type, health, level, attack, defence) {
+  constructor(name) {
     super(name, 'Daemon', 100, 1, 10, 40);
   }
 }
 class Undead extends Character {
-  constructor(name, type, health, level, attack, defence) {
+  constructor(name) {
     super(name, 'Undead', 100, 1, 25, 25);
   }
 }
 class Zombie extends Character {
-  constructor(name, type, health, level, attack, defence) {
+  constructor(name) {
     super(name, 'Zombie', 100, 1, 40, 10);
   }
 }
